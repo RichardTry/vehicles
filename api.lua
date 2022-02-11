@@ -121,7 +121,7 @@ function vehicles.object_drive(entity, dtime, def)
 	local place_chance = def.place_chance or 1
 	local place_trigger = def.place_trigger or nil
 	local animation_speed = def.animation_speed or 20
-	local uses_arrow_keys = def.uses_arrow_keys or false
+	local uses_arrow_keys = def.uses_arrow_keys or true
 	local brakes = def.brakes or false
 	local handling = def.handling or {initial=1.1, braking=2.2}
 	local braking_effect = def.braking_effect or "vehicles_dust.png"
